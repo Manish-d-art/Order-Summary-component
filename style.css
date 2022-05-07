@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -26,15 +27,31 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 18rem;
+    background: hsl(225, 100%, 94%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .main-img {
-    width: 280px;
+    width: 18rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
     margin: 1.3rem 0;
+}
+
+.para-block p {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    padding: 0 1.9rem;
+    line-height: 1.7;
+    font-size: .8rem;
+    color: hsl(224, 23%, 55%);
+    /* font-weight: 500; */
 }
