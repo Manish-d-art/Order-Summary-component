@@ -25,6 +25,12 @@ main {
     .main-img {
         width: 250px !important;
     }
+    .para-block p {
+        padding: 0px 1.2rem !important;
+    }
+    .pay-ele {
+        margin-left: -8px !important;
+    }
 }
 
 .card {
@@ -75,14 +81,30 @@ h1 {
 
 .pay-ele .annual {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: .9rem;
     color: black;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 .pay-ele .dollar {
     font-weight: 100;
-    font-size: 1rem;
+    font-size: .73rem;
     color: hsl(224, 23%, 55%);
-    font-si font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.pay-ele {
+    margin-left: -15px;
+}
+
+.p-change {
+    font-size: .9rem;
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.p-change:hover {
+    text-decoration: none;
 }
