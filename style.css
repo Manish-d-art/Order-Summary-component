@@ -17,7 +17,7 @@ main {
 
 @media (min-width:500px) {
     main {
-        margin: 4rem 2rem;
+        margin: 6rem 2rem;
     }
 }
 
@@ -38,9 +38,8 @@ main {
     flex-direction: column;
     align-items: center;
     width: 18rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     background: hsl(225, 100%, 98%);
+    border-radius: 15px;
 }
 
 .main-img {
@@ -107,4 +106,35 @@ h1 {
 
 .p-change:hover {
     text-decoration: none;
+}
+
+.process-pay-block {
+    background: hsl(245, 75%, 52%);
+    margin: 0 0 1.5rem 0;
+    width: 85%;
+    text-align: center;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: hsl(225, 100%, 94%);
+    box-shadow: 0 15px 6px hsl(225, 100%, 94%);
+}
+
+.process-pay-block:hover {
+    cursor: pointer;
+    background: hsla(245, 75%, 52%, 0.7);
+}
+
+.last {
+    /* padding: 1rem 0; */
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 0 1.9rem 0;
+}
+
+.last-p {
+    font-size: 0.9rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
 }
