@@ -81,6 +81,7 @@ h1 {
 }
 
 .pay-ele .dollar {
+    font-weight: 100;
     font-size: 1rem;
     color: hsl(224, 23%, 55%);
     font-si font-family: 'Red Hat Display', sans-serif;
