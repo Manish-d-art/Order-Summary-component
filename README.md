@@ -23,15 +23,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/design/desktop-design.jpg.jpg)
+![](./assets/design/desktop-design.jpg)
 
 
 
 ### Links
 
 - Solution URL: [ solution URL](https://github.com/Manish-d-art/Order-Summary-component.git)
-- Live Site URL: [live site URL] (https://order-summary-component-manish.netlify.app)
 
+- Live Site URL: [ live site URL ](https://order-summary-component-manish.netlify.app)
 
 
 ## My process
