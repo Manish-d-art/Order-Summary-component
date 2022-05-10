@@ -144,6 +144,11 @@ h1 {
     font-size: 0.9rem;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
+    cursor: pointer;
+}
+
+.last-p:hover {
+    color: black;
 }
 
 
