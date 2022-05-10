@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap");
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,7 +6,8 @@
 }
 
 body {
-    background: hsl(225, 100%, 94%);
+    background: hsl(225, 100%, 94%) url("assets/images/pattern-background-mobile.svg") no-repeat;
+    background-size: contain;
 }
 
 main {
@@ -15,13 +16,13 @@ main {
     margin: 2rem 1rem;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
     main {
         margin: 6rem 2rem;
     }
 }
 
-@media (max-width:300px) {
+@media (max-width: 300px) {
     .main-img {
         width: 250px !important;
     }
@@ -49,18 +50,18 @@ main {
 }
 
 h1 {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-weight: 900;
     font-size: 1.2rem;
     margin: 1.3rem 0;
 }
 
 .para-block p {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     text-align: center;
     padding: 0 1.9rem;
     line-height: 1.7;
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: hsl(224, 23%, 55%);
     font-weight: 500;
 }
@@ -80,16 +81,16 @@ h1 {
 
 .pay-ele .annual {
     font-weight: 700;
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: black;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
 }
 
 .pay-ele .dollar {
     font-weight: 100;
-    font-size: .73rem;
+    font-size: 0.73rem;
     color: hsl(224, 23%, 55%);
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
 }
 
 .pay-ele {
@@ -97,9 +98,9 @@ h1 {
 }
 
 .p-change {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: hsl(245, 75%, 52%);
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -115,7 +116,7 @@ h1 {
     text-align: center;
     padding: 0.8rem 1.5rem;
     border-radius: 10px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-weight: 900;
     font-size: 0.9rem;
     color: hsl(225, 100%, 94%);
@@ -129,7 +130,7 @@ h1 {
 
 .last {
     /* padding: 1rem 0; */
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     margin: 0 0 1.9rem 0;
 }
 
@@ -137,4 +138,15 @@ h1 {
     font-size: 0.9rem;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
+}
+
+
+/* For desktop view */
+
+@media (min-width: 992px) {
+    body {
+        background: hsl(225, 100%, 94%) url("assets/images/pattern-background-desktop.svg") no-repeat;
+        background-size: contain;
+        background-position: top -15vh center;
+    }
 }
